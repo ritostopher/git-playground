@@ -7,4 +7,8 @@ class Controller {
     anotherFunc() {
         console.log('Implementation here')
     }
+
+    pop() {
+        console.log('pop')
+    }
 }
