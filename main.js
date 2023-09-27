@@ -6,3 +6,7 @@ server.run(() => {
 server.on('error', (err) => {
     console.log(err)
 })
+
+server.on('disconnect', (err) => {
+    console.log(err)
+})
