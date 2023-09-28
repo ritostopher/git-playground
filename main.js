@@ -10,3 +10,5 @@ server.on('error', (err) => {
 server.on('disconnect', (err) => {
     console.log(err)
 })
+
+console.log('started')
