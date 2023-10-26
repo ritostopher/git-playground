@@ -11,8 +11,4 @@ server.on('disconnect', (err) => {
     console.log(err)
 })
 
-server.on('custom-event', (event) => {
-    console.log(event)
-})
-
 console.log('started')
