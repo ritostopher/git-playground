@@ -12,3 +12,7 @@ server.on('disconnect', (err) => {
 })
 
 console.log('started already!')
+
+server.on('redis-disconnected', (error) => {
+    console.log('Redis is gone!!!')
+})
