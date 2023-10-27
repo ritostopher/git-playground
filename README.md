@@ -7,3 +7,5 @@ But another message.
 Adding some description here.
 
 Adding more text here
+
+Adding Redis documentation
