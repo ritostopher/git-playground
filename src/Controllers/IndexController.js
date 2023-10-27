@@ -11,4 +11,8 @@ class Controller {
     pop() {
         console.log('pop')
     }
+
+    index() {
+        console.log('index')
+    }
 }
