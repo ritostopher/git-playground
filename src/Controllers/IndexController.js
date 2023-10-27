@@ -15,4 +15,8 @@ class Controller {
     index() {
         console.log('index')
     }
+
+    construct() {
+        console.log('construct')
+    }
 }

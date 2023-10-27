@@ -11,4 +11,4 @@ server.on('disconnect', (err) => {
     console.log(err)
 })
 
-console.log('started')
+console.log('started already!')
