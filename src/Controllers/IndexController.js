@@ -17,6 +17,6 @@ class Controller {
     }
 
     construct() {
-        console.log('construct')
+        console.log('construct here')
     }
 }
